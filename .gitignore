@@ -1,0 +1,28 @@
+# Python environments and generated files
+backend/venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+
+# Local configuration, credentials and logs
+.env
+.env.*
+!.env.example
+*.local
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
